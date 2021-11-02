@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#titulo {
+    color: rgb(87, 87, 87);
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: rgb(255, 187, 0);
+    background-color: white;
+}
+
+main {
+    width: 920px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#principal{
+    width: 670px; 
+    float: left;  
+}
+
+#principal div{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: rgb(255, 187, 0);
+    font-weight: bold; 
+    margin: 10px 0px 0px 0px   
+}
+
+.postado{
+    margin: 0px;
+    font-size: 13px;
+}
+
+div img {
+    padding-top: 10px;
+}
+
+div a{
+    text-decoration: none;
+    color: rgb(255, 187, 0);
+}
+
+aside{
+    float: right;
+    width: 230px;
+}
+
+h3 {
+    color: rgb(116, 116, 116);
+    background-color: rgb(211, 209, 209);
+}
+
+aside div{
+    background-color: white;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+aside div p{
+    font-size: 13px;
+    padding: 2px;
+}
+
+hr{
+    margin: 2px;
+}
+
+#recentes{
+    font-size: 13px;
+}
+
+#categorias a{
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 15px;
+    width: 890px;
+    margin: auto;
+}
+
+
+

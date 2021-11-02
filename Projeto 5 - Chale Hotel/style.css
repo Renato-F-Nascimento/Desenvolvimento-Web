@@ -1,0 +1,162 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+:root{
+    --cor1: #6e672c ;
+    --cor2: #8b8448;
+    --cor3: rgb(231, 231, 189);
+}
+
+body{
+    margin: 15px;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 1230px;
+    min-width: 800px;
+}
+
+header{
+    background: rgb(231, 231, 189) url(imagens/topo-imagem-principal.png) no-repeat;
+    height: 250px;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 235px;
+}
+
+.bg-menu{
+    background: url(imagens/topo-imagem-lateral.png) no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 250px;
+    width: 500px;
+}
+
+.menu{    
+    padding: 15px;
+    padding-left: 90px;
+}
+
+.reserva{
+    height: 30px;
+    border-bottom: 2px solid var(--cor2);
+    border-top: 2px solid var(--cor2);
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.reserva a{
+    background-color: var(--cor2);
+    color: #fff5b0;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: right;
+    line-height: 15px;
+    margin-top: 2px;
+}
+
+.menu p{
+    display: inline-block;
+    color: var(--cor2);
+
+}
+
+.menu ul{
+    list-style: none;
+    float: left;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.links-menu a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 20px;
+}
+
+.links-menu img{
+    float: right;
+}
+
+.links-menu a:hover{
+    background: #fdf6be;
+}
+
+/*Main*/
+
+main{
+    background: url(imagens/bg-container.png) top center repeat-y;
+}
+
+h1{
+    color: var(--cor2);
+    font-size: 20px;
+}
+
+.textao{
+    width: 46%;
+    display: inline-block;
+    background: url(imagens/bg-area-principal.png) repeat-x;
+    padding: 2%;
+}
+
+.espacos{
+    width: 46%;
+    float: right;
+    padding: 2%;
+    background: url(imagens/bg-area-lateral.png) repeat-x;
+}
+
+.espacos ul{
+    list-style: none;
+}
+
+.espacos img{
+    width: 150px;
+    margin: 10px;
+    float: left;
+}
+
+.espacos li {
+    font-size: 14px;
+    height: 120px;
+    border-bottom: 1px solid white;
+}
+
+.espacos a{
+    text-decoration: none;
+    color: #000;
+}
+
+.espacos li:hover{
+    background: #fdf6be;
+}
+
+h2 {
+    color: var(--cor2);
+    font-size: 16px;
+    padding: 10px;
+    background: url(imagens/ornamento.png) no-repeat center right;
+    margin-right: 5px;
+}
+
+.rodape{
+    clear: both;
+    color: var(--cor2);
+    background: #fff url(imagens/bg-rodape.png) top repeat-x;
+    padding: 10px;
+}

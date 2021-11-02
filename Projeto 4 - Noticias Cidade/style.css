@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+body{
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+header {
+    height: 230px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    width: 820px;
+    margin: auto;
+}
+
+#logo {
+    padding-top: 25px;
+}
+
+nav ul{
+    width: 686px;
+    background: rgb(170, 0, 0);
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+}
+
+nav li{
+    float: left;         
+    font-size: 1.5em;
+    background: url("imagens/divisor.png") no-repeat left;    
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px 22px;   
+}
+
+nav a:hover{
+    color: rgb(12, 12, 12);
+}
+
+#primeiro {
+    background: none;
+}
+
+.select a{
+    background: rgb(255, 0, 0);
+}
+
+#sp {
+    float: right;
+}
+
+/*conteudo*/
+.conteudo {
+    width: 850px;
+    margin: auto;
+}
+
+h1 {
+    background: #294c71;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.col-esq {
+    float: left;
+    width: 25%;
+}
+
+.col-esq div{
+
+    background: url("imagens/fundo-caixa.png");
+    padding: 10px;
+    margin: 10px 5px ;
+
+}
+
+.col-esq ul{
+    list-style: none;
+    background: #fff;
+    margin: 10px 0px;
+}
+
+.col-esq li a{
+    display: block; 
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+
+.col-esq li a:hover{
+    color: rgb(167, 167, 167);
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left;
+    padding-left: 20px;
+}
+/*news*/
+.col-esq form{
+    background: #fff;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+#email {
+    width: 150px;
+    padding: 5px;
+}
+
+#cadastrar {
+    background: rgb(170, 0, 0);
+    color: #fff;
+    padding: 5px;
+}
+
+/*meio*/
+.sec2 {
+    width: 35%;
+    float: left;
+}
+
+.col-meio{
+    margin: 5px;
+}
+
+.caixa1{
+    background: url("imagens/fundo-caixa.png");
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.caixa2{
+    background: #fff;
+    margin-top: 10px;
+}
+
+.doutor {
+    border: 2px solid rgb(167, 167, 167);
+}
+
+h2{
+    background: rgb(170, 0, 0);
+    color: #fff;
+    display: inline-block;
+    padding: 2px;
+    margin-top: 10px;
+}
+
+.leia-mais{
+    color: rgb(170, 0, 0);
+}
+
+.caixa3{
+    margin-top: 10px;
+    background: url("imagens/fundo-caixa.png");
+    padding: 10px;
+}
+
+.caixa4{
+    background: #fff;
+    margin-top: 10px;
+}
+
+.caixa4 ul{
+    list-style: none;
+}
+
+.caixa4 li{
+    height: 65px;
+    border-bottom: 1px solid rgb(167, 167, 167);
+    padding: 2px;
+}
+
+.caixa4 img{
+    border: 2px solid rgb(167, 167, 167);
+    float: left;
+    margin: 5px;
+}
+
+.caixa4 a{
+    text-decoration: none;
+}
+
+.caixa4 h4{
+    font-size: 11px;
+    color: rgb(0, 110, 255);
+    text-indent: 5px;
+}
+
+.caixa4 p{
+    font-size: 14px;
+    color: #000;
+}
+
+.caixa4 li:hover{
+    background: rgb(245, 245, 245);
+}
+
+/*direita*/
+.sec3 {
+    float: left;
+    width: 35%;
+}
+
+.col-dir{
+    margin: 5px;
+}
+
+
+/*footer*/
+footer{
+    background: #294c71;
+    clear: both;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+/*duas colunas*/
+#duas-colunas .sec2 {
+    width: 70%;
+    float: left;
+}
+
+#uma-coluna .sec2{
+    width: 100%;
+    float: left;
+}

@@ -1,0 +1,107 @@
+body{
+    background: url(projeto-inicial-spotify/imagens/capa.png),
+                url(projeto-inicial-spotify/imagens/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+                background-attachment: fixed;    
+                font-family: Helvetica, Arial, sans-serif;       
+}
+
+.navbarcolor{
+    background-color: rgba(0, 0, 0, 0.6);   
+    padding: 15px 0px; 
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255);
+    border-color: #fff;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.divisor{
+    width: 1px;
+    background-color: #fff;
+    margin: 12px 15px;
+}
+
+
+/*Capa*/
+
+html, body, #home{
+    height: 100%;
+}
+
+#home{
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+}
+
+.btn-custom{
+    color: #fff;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+    margin: 0px 10px
+}
+
+.fundo-roxo{
+    background: #7c25f8;
+}
+
+.fundo-roxo:hover{
+    background: #6207e3;
+    color: #fff;
+}
+
+.fundo-branco{
+    border: 2px solid #fff;
+}
+
+.fundo-branco:hover{
+    color: #000;
+    background: #fff;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .btn-custom{
+        margin: 10px 15px;
+    }  
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .btn-custom{
+        margin: 10px 15px;
+    }  
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px)  {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+
