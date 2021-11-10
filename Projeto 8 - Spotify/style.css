@@ -3,7 +3,8 @@ body{
                 url(projeto-inicial-spotify/imagens/ruido.png),
                 linear-gradient(50deg,#ff4169,#7c26f8);
                 background-attachment: fixed;    
-                font-family: Helvetica, Arial, sans-serif;       
+                font-family: Helvetica, Arial, sans-serif;   
+    overflow-x: hidden;
 }
 
 .navbarcolor{
@@ -75,6 +76,94 @@ h1{
     background: #fff;
 }
 
+/*Conteudos*/
+.conteudos{
+    background-color: #fff;
+    padding: 20px 0px;
+}
+
+.conteudos img{
+    padding: 10px 0px;
+}
+
+.conteudos h2, .conteudos h3{
+    color: #7c25f8;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+.conteudos h2{
+    font-size: 3.1em;
+}
+
+.conteudos h3{
+    font-size: 2.3em;
+}
+
+.conteudos p{
+    font-size: 1.2em;
+}
+
+.funcoes{
+    padding: 20px 0px;
+}
+
+.funcoes h2{
+    font-size: 3.1em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+.funcoes h3{
+    font-size: 2.3em;
+    color: #9bf0e1;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+}
+
+.funcoes p{
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.rotate {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/*Footer*/
+footer{
+    background-color: #000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.tit-lista{
+    text-transform: uppercase;
+    color: gray;
+    font-size: 0.8em;
+}
+
+footer li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer li a:hover{
+    text-decoration: none;
+    color: #9bf0e1;
+}
+
+.redes-sociais a{
+    float: right;
+}
+
+.redes-sociais img{
+    margin-left: 10px;
+}
+
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
@@ -92,7 +181,14 @@ h1{
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+    .rotate {
+        transform: rotate(30deg);
+        padding-left: 80px;
+        margin-top: 130px;
+    }
+    .capas-musicas{
+        margin-top: 130px;
+    }
 }
 
 /* Large devices (desktops, 992px and up)*/
